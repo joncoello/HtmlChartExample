@@ -1,0 +1,8 @@
+{
+	"version": "1.0.0",
+	"name": "ASP.NET",
+	"private": true,
+  "devDependencies": {
+    "chart.js": "2.3.0"
+  }
+}
