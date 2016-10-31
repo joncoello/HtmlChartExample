@@ -13,7 +13,7 @@
     </style>
 </head>
 <body>
-    <div style="width:75%;">
+    <div style="width:50%;">
         <canvas id="canvas"></canvas>
     </div>
     <br>
@@ -110,18 +110,18 @@
         // series 1
         var dataset = config.data.datasets[0];
         dataset.borderColor = 'rgba(119,191,62,0.4)';
-        dataset.backgroundColor = 'rgba(119,191,62,0.5)';
+        dataset.backgroundColor = 'rgba(119,191,62,0.2)';
         dataset.pointBorderColor = 'rgba(119,191,62,0.7)';
         dataset.pointBackgroundColor = 'rgba(119,191,62,0.5)';
-        dataset.pointBorderWidth = 1;
+        dataset.pointBorderWidth = 3;
 
         // series 2
         var dataset = config.data.datasets[1];
         dataset.borderColor = 'rgba(0,130,200,0.4)';
-        dataset.backgroundColor = 'rgba(0,130,200,0.5)';
+        dataset.backgroundColor = 'rgba(0,130,200,0.2)';
         dataset.pointBorderColor = 'rgba(0,130,200,0.7)';
         dataset.pointBackgroundColor = 'rgba(0,130,200,0.5)';
-        dataset.pointBorderWidth = 1;
+        dataset.pointBorderWidth = 3;
 
 
         window.onload = function() {
